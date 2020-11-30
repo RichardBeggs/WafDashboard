@@ -4,6 +4,8 @@ A dash board to barracuda display Waf log csv files
 ## Introduction 
 I have found that searching barracuda WAF logs is a very slow process and you rarely find what you need. I have created a solution that reads in the CSV files that can be exported from barracuda WAF.  I have then created a dashboard that reports on this data and makes it more readable.
 
+![Screenshot of DashBoard](https://raw.githubusercontent.com/RichardBeggs/WafDashboard/main/Screenshot%202020-11-30%20105148.png)
+
 ## Solution 
 There are 2 parts to the solution the first is importing the CSV files into an SQL Database.  The second part is the dashboard that displays the data to the user in a much easier way to consume.   
 
