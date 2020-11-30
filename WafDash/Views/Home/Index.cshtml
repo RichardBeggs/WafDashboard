@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div id="world-map" style="height: 500px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl">
+            <br />
+            <h3 style="width: 400px">Top 10 browsers</h3>
+            <br />
+        </div>
+        <div class="col-xl">
+            <br />
+            <h3>Top Ip Addresses</h3>
+            <br />
+        </div>
+        <div class="col-xl">
+            <br />
+            <h3>Top Attacks</h3>
+            <br />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="card">
+                <canvas id="browserChart" width="400" height="400"></canvas>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card" id="TopIps"></div>
+        </div>
+        <div class="col-sm">
+            <div class="card" id="TopAttacks"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm" style="margin: auto;">
+            <br />
+            <h3>Hits per hour</h3>
+            <br />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div>
+                <canvas id="timeChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="padding-bottom: 100px"></div>
+
+@section Scripts
+{
+    <script src="~/js/worldMap.js"></script>
+    <script src="~/js/charts.js"></script>
+    <script src="~/js/ipTable.js"></script>
+    <script src="~/js/attack.js"></script>
+}

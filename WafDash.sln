@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WafDash", "WafDash\WafDash.csproj", "{7FFCF6BD-7741-44D4-B21E-A42D01769347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FFCF6BD-7741-44D4-B21E-A42D01769347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFCF6BD-7741-44D4-B21E-A42D01769347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFCF6BD-7741-44D4-B21E-A42D01769347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFCF6BD-7741-44D4-B21E-A42D01769347}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D776E7A8-E70D-4430-8ED4-81B36EC9AB6F}
+	EndGlobalSection
+EndGlobal
