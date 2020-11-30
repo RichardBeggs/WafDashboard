@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WafDash", "WafDash\WafDash.csproj", "{7FFCF6BD-7741-44D4-B21E-A42D01769347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WafDash", "WafDash\WafDash.csproj", "{7FFCF6BD-7741-44D4-B21E-A42D01769347}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorLogReader", "..\ErrorLogReader\ErrorLogReader\ErrorLogReader.csproj", "{50AF8545-FE95-4176-86F1-53C3CC977AE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7FFCF6BD-7741-44D4-B21E-A42D01769347}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFCF6BD-7741-44D4-B21E-A42D01769347}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFCF6BD-7741-44D4-B21E-A42D01769347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AF8545-FE95-4176-86F1-53C3CC977AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AF8545-FE95-4176-86F1-53C3CC977AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AF8545-FE95-4176-86F1-53C3CC977AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AF8545-FE95-4176-86F1-53C3CC977AE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
